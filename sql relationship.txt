@@ -1,0 +1,19 @@
+1-1 İlişki(One to One):
+Bir tablodaki satır verinin diğer tablodaki bir satırlık veriye denk gelmesidir.Örnek 
+üzerinden anlatacak olursak; İki tane tablomuz olsun. Bunlardan birisi yolcu tablosu
+diğeri ise bilet tablosu olsun. Her yolcu tek bir koltuğa sahip olabilir ve herkesin bir
+bileti olur. Bu iki tablo arasındaki ilişki 1'e 1(one to one) ilişki türüdür.
+
+1-n İlişki(Many to One):
+Tablolar arası ilişkilerde en çok rastlanan ilişki türüdür. Bir tablodaki verinin diğer 
+tablodaki birden fazla satırlık veriye denk gelmesidir. Örnek üzerinden anlatacak olursak;
+Bir tane öğrenci ve bir tanede okul tablomuz olsun. Öğrenciler aynı anda birden fazla 
+okulda eğitim alamaz ama bir okulda birden fazla öğrenci eğitim alır. Bu durum 1'e çok (many to one) 
+ilişki türüdür.
+
+n-n İlişki(Many to Many):
+Bu ilişkide iki tablo aralarında birden fazla bağa sahiptir. İki tablodaki birer satırlık
+verilerin, karşılıklı olarak birden fazla satırlık veriye denk gelmesidir. Örnek üzerinden
+anlatacak olursak; Filmler ve kategoriler adında iki adet tablomuz olsun. Bir film birden
+fazla kategoriye sahip olabilir ve aynı zamanda bir kategoride birden fazla film olabilir.
+Bu durum Çok'a çok(many to many) ilişki türüdür 
